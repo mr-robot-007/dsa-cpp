@@ -1,0 +1,1 @@
+{"name":"Local: maxSubarrysum","url":"/home/mrrobot/Desktop/c++/again/maxSubarrysum.cpp","tests":[{"id":1620829764554,"input":"4\n-1 4 7 2","output":"13"},{"id":1620830644616,"input":"5\n1 -4 3 2 1","output":"6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/mrrobot/Desktop/c++/again/maxSubarrysum.cpp","group":"local","local":true}

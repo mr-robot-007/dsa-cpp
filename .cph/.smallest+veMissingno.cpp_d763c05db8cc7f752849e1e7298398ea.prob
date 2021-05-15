@@ -1,0 +1,1 @@
+{"name":"Local: smallest+veMissingno","url":"/home/mrrobot/Desktop/c++/again/smallest+veMissingno.cpp","tests":[{"id":1620827862633,"input":"5\n0 -9 1 3 -4 5","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/mrrobot/Desktop/c++/again/smallest+veMissingno.cpp","group":"local","local":true}

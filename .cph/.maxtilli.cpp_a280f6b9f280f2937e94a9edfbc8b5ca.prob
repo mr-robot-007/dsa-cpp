@@ -1,0 +1,1 @@
+{"name":"Local: maxtilli","url":"/home/mrrobot/Desktop/c++/again/maxtilli.cpp","tests":[{"id":1620781436232,"input":"6\n1 0 5 4 6 8","output":"1 1 5 5 6 8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/mrrobot/Desktop/c++/again/maxtilli.cpp","group":"local","local":true}

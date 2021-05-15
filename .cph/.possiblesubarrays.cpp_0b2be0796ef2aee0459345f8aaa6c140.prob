@@ -1,0 +1,1 @@
+{"name":"Local: possiblesubarrays","url":"/home/mrrobot/Desktop/c++/again/possiblesubarrays.cpp","tests":[{"id":1620828691739,"input":"4\n-1 4 7 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/mrrobot/Desktop/c++/again/possiblesubarrays.cpp","group":"local","local":true}
