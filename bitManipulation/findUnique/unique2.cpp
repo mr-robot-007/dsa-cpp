@@ -5,6 +5,8 @@ using namespace std;
 int getBit(int n,int pos){
     return (n & (1<< pos)!=0);
 }
+
+
 void unique(int arr[], int n)
 {
     int xorsum=0;
