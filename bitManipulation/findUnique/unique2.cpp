@@ -22,14 +22,15 @@ void unique(int arr[], int n)
         xorsum = xorsum >>1;
     }
     //xorsum will become 0 at this point
+    int newxor = 0;
     for(int i =0;i<n;i++)
     {
         if(getBit(arr[i],pos)){
-            xorsum = xorsum ^ arr[i];
+            newxor = newxor ^ arr[i];
         }
     }
-    cout << xorsum <<endl;
-    cout<< (xorsum ^ tempxor)<<endl;
+    cout << newxor <<endl;
+    cout<< (newxor ^ tempxor)<<endl;
     return ;
 }
 
