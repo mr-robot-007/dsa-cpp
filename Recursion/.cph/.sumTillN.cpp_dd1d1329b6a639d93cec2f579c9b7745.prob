@@ -1,0 +1,1 @@
+{"name":"Local: sumTillN","url":"/home/mrrobot/Desktop/c++/again/Recursion/sumTillN.cpp","tests":[{"id":1621233659957,"input":"20","output":"210"},{"id":1621233789216,"input":"10","output":"55"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/mrrobot/Desktop/c++/again/Recursion/sumTillN.cpp","group":"local","local":true}

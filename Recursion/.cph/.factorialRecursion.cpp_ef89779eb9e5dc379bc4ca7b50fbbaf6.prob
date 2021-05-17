@@ -1,0 +1,1 @@
+{"name":"Local: factorialRecursion","url":"/home/mrrobot/Desktop/c++/again/Recursion/factorialRecursion.cpp","tests":[{"id":1621234505820,"input":"5","output":"120"},{"id":1621234525376,"input":"4","output":"24"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/mrrobot/Desktop/c++/again/Recursion/factorialRecursion.cpp","group":"local","local":true}
