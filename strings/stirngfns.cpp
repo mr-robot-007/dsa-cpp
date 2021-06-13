@@ -66,10 +66,10 @@ int main()
     // }
 
     //substrng fun
-    // string s1= "nincompoop";
+    string s1= "nincompoop";
 
-    // string s = s1.substr(6,4);
-    // cout<<s<<endl;
+    string s = s1.substr(6,4);
+    cout<<s<<endl;
 
     //string to int
 
@@ -89,8 +89,7 @@ int main()
     // string s1 = "feifwofiwiefwjof";
     // sort(s1.begin(),s1.end());
     // cout<<s1<<endl;
-
-
+    
 
 
 
