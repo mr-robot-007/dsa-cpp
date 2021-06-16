@@ -2,27 +2,39 @@
 using namespace std;
 
 string keypadArr[] = {"", "./", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
-
-void keypad(string s,string ans)
+vector<string> ans_array;
+void keypad(string s, string ans)
 {
-    if(s.length()==0){
-        cout<<ans<<endl;
+    if (s.length() == 0)
+    {
+        // cout<<ans<<endl;
+        ans_array.push_back(ans);
         return;
     }
-    char ch =s[0];  // ch = 2
-    string code = keypadArr[ch-'0'];  // code = "abc"
-    string ros = s.substr(1);  // '3'
-
-    for(int i = 0; i < code.length();i++)
+    char ch = s[0];
+    string ros = s.substr(1);
+    string code = keypadArr[ch - '0'];
+    for (int i = 0; i < code.length(); i++)
     {
-        keypad(ros,ans + code[i]);
+        keypad(ros, ans + code[i]);
     }
-
 }
 
 int main()
 {
-    keypad("23","");
+    string s;
+    cin >> s;
+    cout << "[";
+    keypad(s, "");
+    for (int i = 0; i < ans_array.size(); i++)
+    {
+        cout << ans_array[i];
+        if (i != ans_array.size() - 1)
+        {
+            cout << ",";
+        }
+    }
+    cout << "]";
 
     return 0;
 }
